@@ -3,7 +3,7 @@ We have created an API for room Booking service for frontend to create a room, c
 
 <b>Task:</b>
 
-1.Creating a Room with features and price: PUT Method:
+1.Creating a Room with features and price: <b>POST</b> Method:
     https://hall-booking-dlb7.onrender.com/createRoom
     
     Ex: 
@@ -13,7 +13,7 @@ We have created an API for room Booking service for frontend to create a room, c
     "price": 900
     }
     
-2.Booking a Room with Customer Details: PUT Method:
+2.Booking a Room with Customer Details: <b>POST</b> Method:
     https://hall-booking-dlb7.onrender.com/createBooking
     
     Ex:
@@ -24,8 +24,8 @@ We have created an API for room Booking service for frontend to create a room, c
     "endTime": "22:00"
     }
     
-3. Listing all Rooms with Booked details: GET Method:
+3. Listing all Rooms with Booked details: <b>GET</b> Method:
     https://hall-booking-dlb7.onrender.com/getAllRooms
     
-4. List all Customers with Booked data: GET Method:
+4. List all Customers with Booked data: <b>GET</b> Method:
     https://hall-booking-dlb7.onrender.com/getAllBookings
